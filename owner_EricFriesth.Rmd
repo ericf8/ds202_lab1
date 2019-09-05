@@ -1,0 +1,15 @@
+---
+title: "owner_EricFriesth"
+author: "Eric Friesth"
+date: "9/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Eric Friesth
+At a party I tell people that I'm studying how businesses use data to make themselves more efficient.
+I use a planner, prioritize and categorize all my work, set reminders for myself.
+I love to ski.
+
