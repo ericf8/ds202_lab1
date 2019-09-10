@@ -13,3 +13,12 @@ At a party I tell people that I'm studying how businesses use data to make thems
 I use a planner, prioritize and categorize all my work, set reminders for myself.
 I love to ski.
 
+
+ + Your (the "Partner's") full name and GitHub username. 
+   + What did the Owner do in the most recent commit? What is the commit ID?
+   + Knit the Owner's `owner_YourName.Rmd`. Are you able to do so without error? If you cannot, what errors did you encounter?
+   + Also include one tip for making Git/GitHub easier, or an error/difficulty you encountered.
+   
+Aashwin Lamsal, @aashwinlamsal on github.
+Eric added files via upload on his last commit. Commit ID 72553911da0a96106d7ae7c75ec437fc0ba8e7f7
+
