@@ -1,0 +1,16 @@
+---
+title: "owner_AashwinLamsal"
+author: "Aashwin Lamsal"
+date: "9/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Aashwin Lamsal, @aashwinlamsal on github.
+Eric added files via upload on his last commit. Commit ID 72553911da0a96106d7ae7c75ec437fc0ba8e7f7.
+I was able to knit the original file with no problems, and as far as making Git/Github easier goes, I would appreciate any sort of helpful guide or cheat sheets to git commands!
