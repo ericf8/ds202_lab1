@@ -1,0 +1,8 @@
+---
+title: "Owner_AashwinLamsal"
+author: "Aashwin Lamsal"
+date: "9/12/2019"
+output: html_document
+---
+
+My name is Aashwin Lamsal. Usually I tell people that I'm an MIS major trying to specialize in BA, with my interests mainly lying in machine learning. Three strategies I use to organize myself all involve my iPhone in some way. I usually set multiple alarms througout the day to remind myself to do routine things (work out, going to bed, waking up, etc.), I use reminders to plan dates, in a similar way to a regular planner. Thirdly, I use my phone to check and send emails everyday, which is imperative to the way I organize my work/life. An interesting fact about myself is that I have been to the birthplace of the Buddha, in Lumbini, Nepal.
