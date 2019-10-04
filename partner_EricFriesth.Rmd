@@ -1,0 +1,82 @@
+---
+title: "partner_EricFriesth"
+author: "Eric Friesth"
+date: "9/12/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Eric Friesth, ericf8 on github
+
+Aashwin and I switched roles for this lab, so the most recent commit is him deleting old files from the repo. ID: 5ff0d71655a3ff461847613bc25fe55d685022b7
+
+I was able to knit Aashwin's Rmd file.
+
+Something that Aashwin and I found to make git and github easier was look up cheat sheets and free online learning tools to help us out.
+
+
+# Concepts
+
+1. Github is a central, online service for easily storing and sharing files and Git is the connecting piece between Github and your other applications that you wish to link to anyone's public (or private with proper authorization from the owner) repository. 
+
+2. They can be used independently from one another but you would be missing out on 99% of the functionality of both, with them being so useful when they're interconnected. 
+
+3. A repository is the location that you would be pulling and pushing files to and from. You can create a repository (repo) using 'git init' and add files to it using 'git add' or 'git remote add'. You can also "clone" or "copy" another repo using 'git clone <url>'.
+
+
+# Coding Exercises
+
+```{r, echo=FALSE}
+X = c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
+sum(is.na(X))
+# Adds the number of 'NA's that appear in vector: X
+```
+
+```{r, echo=FALSE}
+age = c(25,30,45,60,12,41)
+smoker = c('T','F','T','F','F','F')
+weight = c(120,137,0,168,91,142)
+example_data = data.frame(age,smoker,weight)
+example_data[example_data==0] <- 150
+example_data
+# example data now contains the weight: '150' in place of any '0' that was found in that vector
+```
+
+```{r, eval=FALSE}
+averageOfNA = function(){
+  avg = mean(is.na(X)) #avg is the average number of 'NA's in vector 'X'
+  return(avg)
+}
+averageOfNA()
+
+```
+
+```{r, eval=FALSE}
+averageOfElse = function(){
+  avgElse = X / sum(X, na.rm = TRUE) #avgElse is the average of the other values in the vector 'X' that are not 'NA'
+  return(avgElse)
+}
+averageOfElse()
+
+```
+
+```{r eval=FALSE}
+both_na = function(x,y){
+  if(length(x) != length(y)){
+    print("Your vectors are not the same length, try again.")
+  }else{
+    sum(is.na(x)) + sum(is.na(y))
+  }
+  
+}
+
+x = c(1,2,NA,4,5)
+y = c(NA,2,3,NA,NA)
+both_na(x,y)
+
+# In this code segement, my partner Aashwin and I created an 'if' function that first checks to see if the two provided vectors are the same length, then adds their number of 'NA' values together
+```
+
